@@ -118,7 +118,7 @@ onMounted(() => {
 const addNode = (node, prop) => {
   if (node === null) {
     const newNode = new Node(
-      `Root ${nodes.value?.length ? (nodes.value.length + 1) : 1}`,
+      'Root',
       null,
     );
     nodes.value.push(newNode);
